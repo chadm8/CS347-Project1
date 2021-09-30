@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/food-favicon.png" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/locations-style.css" />
+    <script src="js/maps.js"></script>
     <title>Food Trucks Locations</title>
   </head>
   <body>
@@ -18,7 +21,169 @@
           <li>Harrisonburg Food Trucks</li>
         </ul>
       </nav>
-      <h1 class="main-text text-gray text-center">Food Truck Locations</h1>
     </header>
+    <main>
+      <div id="kangnamstyle" class="card bg-lightblue">
+        <div class="card-title">
+          <h3>Kangnam Style</h3>
+        </div>
+        <div class="card-info">
+          <ul class="card-items">
+            <li>
+              Location:&nbsp<span
+                >1106 Reservoir St, Harrisonburg, VA 22801, USA</span
+              >
+            </li>
+            <li>
+              Hours:&nbsp
+              <ul class="hours">
+                <li>Monday: 11:30am - 7pm</li>
+                <li>Tuesday: 11:30am - 7pm</li>
+                <li>Wednesday: 11:30am - 7pm</li>
+                <li>Thursday: 11:30am - 7pm</li>
+                <li>Friday: 11:30am - 7pm</li>
+                <li>Saturday: 11:30am - 7pm</li>
+                <li>Sunday: CLOSED</li>
+              </ul>
+            </li>
+            <li>Phone:&nbsp<span>(540) 271-1194</span></li>
+          </ul>
+          <div id="kangnammap" class="map"></div>
+        </div>
+      </div>
+      <div id="tacoselprimo" class="card bg-lightblue">
+        <div class="card-title">
+          <h3>Tacos El Primo</h3>
+        </div>
+        <div class="card-info">
+          <ul class="card-items">
+            <li>
+              Location:&nbsp<span>1110 Reservoir St. Harrisonburg, VA</span>
+            </li>
+            <li>
+              Hours:&nbsp
+              <ul class="hours">
+                <li>Monday: 11am - 9pm</li>
+                <li>Tuesday: 11am - 9pm</li>
+                <li>Wednesday: 11am - 9pm</li>
+                <li>Thursday: 11am - 9pm</li>
+                <li>Friday: 11am - 9pm</li>
+                <li>Saturday: 11am - 9pm</li>
+                <li>Sunday: 11am - 9pm</li>
+              </ul>
+            </li>
+            <li>Phone:&nbsp<span>(540) 560-2315</span></li>
+          </ul>
+          <div id="tacoselprimomap" class="map"></div>
+        </div>
+      </div>
+      <div id="smokinq" class="card bg-lightblue">
+        <div class="card-title">
+          <h3>Smokin' Q</h3>
+        </div>
+        <div class="card-info">
+          <ul class="card-items">
+            <li>
+              Location:&nbsp<span
+                >3635 N Valley Pike Harrisonburg, VA 22801</span
+              >
+            </li>
+            <li>
+              Hours:&nbsp
+              <ul class="hours">
+                <li>Monday: CLOSED</li>
+                <li>Tuesday: 11am - 7pm</li>
+                <li>Wednesday: 11am - 7pm</li>
+                <li>Thursday: 11am - 7pm</li>
+                <li>Friday: 11am - 7pm</li>
+                <li>Saturday: 11am - 7pm</li>
+                <li>Sunday: 11am - 7pm</li>
+                <li>Sunday: CLOSED</li>
+              </ul>
+            </li>
+            <li>Phone:&nbsp<span>(540) 421-1326</span></li>
+          </ul>
+          <div id="smokinqmap" class="map"></div>
+        </div>
+      </div>
+      <div id="tacomex" class="card bg-lightblue">
+        <div class="card-title">
+          <h3>Tacomex</h3>
+        </div>
+        <div class="card-info">
+          <ul class="card-items">
+            <li>
+              Location:&nbsp<span>2023 S Main St Harrisonburg, VA 22801</span>
+            </li>
+            <li>
+              Hours:&nbsp
+              <ul class="hours">
+                <li>Monday: 11am - 9pm</li>
+                <li>Tuesday: 11am - 9pm</li>
+                <li>Wednesday: 11am - 9pm</li>
+                <li>Thursday: 11am - 9pm</li>
+                <li>Friday: 11am - 9pm</li>
+                <li>Saturday: 11am - 9pm</li>
+                <li>Sunday: 11am - 8pm</li>
+              </ul>
+            </li>
+            <li>Phone:&nbsp<span>(540) 560-7586</span></li>
+          </ul>
+          <div id="tacomexmap" class="map"></div>
+        </div>
+      </div>
+      <div id="lataurina" class="card bg-lightblue">
+        <div class="card-title">
+          <h3>La Taurina Grill</h3>
+        </div>
+        <div class="card-info">
+          <ul class="card-items">
+            <li>
+              Location:&nbsp<span>1001 N Main St, Harrisonburg, VA, 22802</span>
+            </li>
+            <li>
+              Hours:&nbsp
+              <ul class="hours">
+                <li>Monday: 10am - 7pm</li>
+                <li>Tuesday: 10am - 7pm</li>
+                <li>Wednesday: 10am - 7pm</li>
+                <li>Thursday: 10am - 7pm</li>
+                <li>Friday: 10am - 7pm</li>
+                <li>Saturday: 10am - 7pm</li>
+                <li>Sunday: 10am - 7pm</li>
+              </ul>
+            </li>
+            <li>Phone:&nbsp<span>(540) 820-3490</span></li>
+          </ul>
+          <div id="lataurinamap" class="map"></div>
+        </div>
+      </div>
+      <div id="scottys" class="card bg-lightblue">
+        <div class="card-title">
+          <h3>Scotty's Italian Ice</h3>
+        </div>
+        <div class="card-info">
+          <ul class="card-items">
+            <li>
+              Location:&nbsp<span
+                >1476 South Main Street Harrisonburg, VA 22801</span
+              >
+            </li>
+            <li>
+              Hours:&nbsp
+              <ul class="hours">
+                <li>CURRENTLY CLOSED UNTIL JUNE 4TH</li>
+              </ul>
+            </li>
+            <li>Phone:&nbsp<span>N/A</span></li>
+          </ul>
+          <div id="scottysmap" class="map"></div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcaqLsavhhAiL6D0iyCtMBJ02W1haq-jEE&callback=initMap&v=weekly"
+      async
+    ></script>
   </body>
 </html>
