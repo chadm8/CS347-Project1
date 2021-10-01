@@ -5,30 +5,6 @@
   --text-lightblue: #e2f8fd;
 }
 
-button {
-  padding: 5px;
-  border: 2px solid var(--bg-nav);
-  border-radius: 8px;
-  margin-bottom: 1%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-}
-
-button:hover {
-  background-color: var(--bg-main);
-}
-
-button:hover a {
-  color: var(--text-lightblue);
-}
-
-button a {
-  text-decoration: none;
-  color: black;
-}
-
 h2 {
   text-align: center;
   font-size: 22pt;
@@ -43,64 +19,10 @@ h3 {
   font-size: 25pt;
 }
 
-hr {
-  margin-left: 20px;
-  width: 75%;
-}
-
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.bg-lightblue {
-  background-color: var(--text-lightblue);
-}
-
-.item-yellow {
-  border: 3px solid rgb(255, 255, 0);
-  background-color: rgb(255, 255, 195);
-}
-
-.item-lightpink {
-  border: 3px solid lightpink;
-  background-color: rgb(252, 216, 222);
-}
-
-.item-brown {
-  border: 3px solid rgb(66, 30, 30);
-  background-color: rgb(168, 109, 109);
-}
-
-.item-pink {
-  border: 3px solid pink;
-  background-color: rgb(247, 211, 217);
-}
-
-.item-blue {
-  border: 3px solid blue;
-  background-color: rgb(161, 161, 255);
-}
-
-.item-white {
-  border: 3px solid rgb(121, 121, 121);
-  background-color: white;
-}
-
-.item-orange {
-  border: 3px solid orange;
-  background-color: rgb(255, 211, 130);
-}
-
-.item-purple {
-  border: 3px solid purple;
-  background-color: rgb(255, 161, 255);
-}
-
-.item-red {
-  border: 3px solid red;
-  background-color: rgb(255, 167, 167);
 }
 
 .card {
@@ -125,6 +47,12 @@ main {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.397);
 }
 
+.card-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .card-title {
   background-color: var(--bg-nav);
   padding: 20px;
@@ -142,42 +70,19 @@ main {
 
 .card-items > li {
   margin: 10px;
-  text-align: center;
-  display: flex;
   align-items: center;
   font-weight: bolder;
   font-size: 14pt;
-  margin-left: 3%;
+}
+
+li ul {
+  display: flex;
+  flex-direction: column;
 }
 
 .card-items > li > span {
   font-weight: normal;
   font-size: 12pt;
-}
-
-.flavors {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  list-style-type: none;
-  padding-inline-start: 0;
-  margin: 1%;
-}
-
-.flavors li {
-  padding: 10px;
-  margin: 2%;
-  border-radius: 30px;
-  text-align: center;
-}
-
-.menu {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -223,10 +128,6 @@ main {
     font-size: 12pt;
     text-align: left;
   }
-
-  .flavors {
-    justify-content: flex-start;
-  }
 }
 
 @media screen and (max-width: 500px) {
@@ -245,6 +146,10 @@ main {
 
   .card:last-of-type {
     margin-bottom: 8%;
+  }
+
+  .card-info {
+    flex-direction: column;
   }
 
   .card-items {
@@ -267,9 +172,5 @@ main {
     font-weight: normal;
     font-size: 12pt;
     text-align: left;
-  }
-
-  .flavors {
-    justify-content: flex-start;
   }
 }
