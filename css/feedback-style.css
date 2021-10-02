@@ -5,12 +5,43 @@
   --text-lightblue: #e2f8fd;
 }
 
+button {
+  padding: 5px;
+  border: 2px solid var(--bg-nav);
+  border-radius: 5px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 150px;
+}
+
+button:hover {
+  background-color: var(--bg-main);
+  color: var(--text-lightblue);
+}
+
+button:hover a {
+  color: var(--text-lightblue);
+}
+
 h3 {
   text-align: center;
   margin: 0;
   color: var(--text-lightblue);
   border-radius: 10px;
   font-size: 25pt;
+}
+
+input {
+  border: 2px solid var(--bg-nav);
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-left: 1%;
+  min-width: 50%;
+}
+
+label {
+  font-weight: bold;
 }
 
 main {
@@ -29,17 +60,12 @@ main {
   margin-left: 4%;
   margin-right: 4%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.795);
-  transition: 0.3s;
   width: 60%;
   border-radius: 10px;
 }
 
 .card:first-of-type {
   margin-top: 5%;
-}
-
-.card:last-of-type {
-  margin-bottom: 3%;
 }
 
 .card:hover {
@@ -78,9 +104,20 @@ main {
 }
 
 @media screen and (max-width: 500px) {
+  button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+  }
+
   h2 {
     text-align: left;
     margin: 2%;
+  }
+
+  input {
+    margin-left: 0;
   }
 
   .card {

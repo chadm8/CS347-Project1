@@ -52,6 +52,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
 }
 
 .bg-lightblue {
@@ -108,7 +109,6 @@ main {
   margin-left: 4%;
   margin-right: 4%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.795);
-  transition: 0.3s;
   width: 60%;
   border-radius: 10px;
 }
