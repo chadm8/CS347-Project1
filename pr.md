@@ -1,0 +1,9 @@
+1. To start, the website is very polished and has a very clean and professional look to it. I also really like that there are multiple ways to navigate throughout the site, the first being the nav bar and then the cards on the home page that can take you to a specific page for a specific food truck.
+
+2. One significant difference is the useability of the sites. Chad's website adds the extra level of navigation on the homepage which really makes it easy to get to where you want to go. Also the implementation of maps and hours is a really nice feature that would help someone decide what food truck they would want to go to. My website could have implemented something like this where it shows a map and hours/best times to visit during the year to add to the user experience. As far as maintainability, Chad's website would be a little easier to maintain because of his CSS structure and code structure. 
+
+3.  Going off of what was said in point 2, the code is very well-structured and appropriate tags/semantic structures are used. Also the file system is well organized and the website's images are local so they don't rely on images hosted on other websites.
+
+4. No other issues were found, from all perspectives the site is easy to use and to navigate, even for something like a screen-reader, the alt descriptions are accurate and also the structure of the html and use of <nav> tags make it easy for screen readers to locate important sections of the site.
+
+5. Super well done and polished, even the little details like the fading in animations on every page was great. Only think I would add is maybe some more information on the feedback page on a way to get in contact with the owner of the site.
